@@ -10,6 +10,7 @@ Further Modifications Made in Huberty et al. 2025:
 2. Addition of IGM absorption, originally based on from of Miralda-Escude 1998 characterized by x_HI (the neutral Hydrogen Fraction).
 --> Can comment out this part of the code as needed.
 3. Conversion to MCMC method of fitting from gradient descent. 
+4. The Lyman_Transmission file helps compute the DLA. 
 
 The ficus.py and ficus_scripts.py code should be able to run in the same manner as in the Saldana-Lopez github inventory. 
 Running it on this version will create a file called "outputchains"+str(spec_name)+".txt" that saves your MCMC chains for you to analyze. 
