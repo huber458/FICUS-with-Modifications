@@ -320,7 +320,7 @@ def ficus(path, spec_name, plot_mode, ssp_models, Zarray, att_law, wave_range, z
 
         p0[:,20] = p0[:,20] * 0.5#Eb-v paramater
         p0[:,21] = p0[:,21] * 4.5+18.0#N parameter
-        p0[:,22] = p0[:,22] #DLA parameter
+        p0[:,22] = p0[:,22] #xHI parameter
 
         f = open("outputchains"+str(spec_name)+".txt", "a")#I decided to save the chains as a text file. Probably not the most effective method! But you can read the chains out of the file.
         #Here is the MCMC. If you want to run less chains, change the steps parameter to a smaller value. 
